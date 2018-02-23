@@ -24,4 +24,10 @@ protected:
 	@return: successful = true, false otherwise
 	*/
 	static bool loadFromFile(std::string path);
+
+	/* Check if colors is connected
+	@param: index in shapeforms new shape was added
+	@return: if new shape is valid r = true
+	*/
+	static bool isPolyomino(int index);
 };
